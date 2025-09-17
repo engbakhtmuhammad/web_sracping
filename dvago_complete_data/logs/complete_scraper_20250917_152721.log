@@ -133,3 +133,12 @@
 2025-09-17 15:30:28,712 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
 2025-09-17 15:30:28,714 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
 2025-09-17 15:30:28,715 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:30:51,353 - __main__ - INFO - Discovering subcategories for: Dry Skin
+2025-09-17 15:30:51,354 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/dry-skin
+2025-09-17 15:30:51,377 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:30:52,027 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:30:52,183 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:30:52,331 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:30:52,349 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:30:52,349 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:30:52,350 - dvago_scraper - WARNING - Selenium not available, falling back to requests
