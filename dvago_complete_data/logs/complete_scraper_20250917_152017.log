@@ -1,0 +1,14 @@
+2025-09-17 15:20:17,677 - __main__ - INFO - Logging initialized - Log file: dvago_complete_data/logs/complete_scraper_20250917_152017.log
+2025-09-17 15:20:17,678 - __main__ - INFO - Initializing scrapers...
+2025-09-17 15:20:18,008 - dvago_scraper - INFO - Database tables created successfully
+2025-09-17 15:20:18,022 - dvago_scraper - INFO - Database initialized: dvago_complete_data/dvago_data.db
+2025-09-17 15:20:18,038 - dvago_scraper - INFO - DvagoScraper initialized successfully
+2025-09-17 15:20:18,039 - __main__ - INFO - Complete DVAGO scraper initialized successfully
+2025-09-17 15:20:18,039 - __main__ - INFO - ============================================================
+2025-09-17 15:20:18,039 - __main__ - INFO - STARTING COMPLETE DVAGO.PK SCRAPING PROCESS
+2025-09-17 15:20:18,040 - __main__ - INFO - ============================================================
+2025-09-17 15:20:18,041 - __main__ - INFO - Stage 1: Discovering all categories and subcategories...
+2025-09-17 15:20:18,041 - dvago_scraper - INFO - Starting comprehensive category discovery...
+2025-09-17 15:20:27,336 - dvago_scraper - INFO - Discovered 482 unique categories
+2025-09-17 15:20:27,337 - __main__ - INFO - Discovered 482 categories
+2025-09-17 15:20:27,341 - __main__ - ERROR - Error during scraping process: 'image_url'

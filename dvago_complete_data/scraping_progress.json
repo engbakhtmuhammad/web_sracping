@@ -1,0 +1,15 @@
+{
+  "categories_discovered": 0,
+  "products_found": 0,
+  "products_detailed": 0,
+  "start_time": "2025-09-17 15:27:22.299949",
+  "current_stage": "Category Discovery",
+  "timestamp": "2025-09-17T15:27:22.299965",
+  "config": {
+    "output_dir": "dvago_complete_data",
+    "delay": 2.0,
+    "max_products_per_category": null,
+    "detailed_scraping": true,
+    "resume": false
+  }
+}

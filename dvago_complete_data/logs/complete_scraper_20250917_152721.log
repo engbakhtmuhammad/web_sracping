@@ -1,0 +1,135 @@
+2025-09-17 15:27:21,924 - __main__ - INFO - Logging initialized - Log file: dvago_complete_data/logs/complete_scraper_20250917_152721.log
+2025-09-17 15:27:21,925 - __main__ - INFO - Initializing scrapers...
+2025-09-17 15:27:22,273 - dvago_scraper - INFO - Database tables created successfully
+2025-09-17 15:27:22,273 - dvago_scraper - INFO - Database initialized: dvago_complete_data/dvago_data.db
+2025-09-17 15:27:22,298 - dvago_scraper - INFO - DvagoScraper initialized successfully
+2025-09-17 15:27:22,299 - __main__ - INFO - Complete DVAGO scraper initialized successfully
+2025-09-17 15:27:22,299 - __main__ - INFO - ============================================================
+2025-09-17 15:27:22,299 - __main__ - INFO - STARTING COMPLETE DVAGO.PK SCRAPING PROCESS
+2025-09-17 15:27:22,299 - __main__ - INFO - ============================================================
+2025-09-17 15:27:22,300 - __main__ - INFO - Stage 1: Discovering all categories and subcategories...
+2025-09-17 15:27:22,301 - dvago_scraper - INFO - Starting comprehensive category discovery...
+2025-09-17 15:27:30,958 - dvago_scraper - INFO - Discovered 482 unique categories
+2025-09-17 15:27:30,958 - __main__ - INFO - Discovered 482 categories
+2025-09-17 15:27:30,973 - dvago_scraper - INFO - Saved 482 categories to database
+2025-09-17 15:27:30,974 - __main__ - INFO - Discovering subcategories for: Medicine
+2025-09-17 15:27:30,974 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/medicine
+2025-09-17 15:27:31,003 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:27:31,989 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:27:32,222 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:27:32,391 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:27:32,433 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:27:32,433 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:27:32,434 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:27:39,787 - __main__ - INFO - Discovering subcategories for: Derma
+2025-09-17 15:27:39,787 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/derma
+2025-09-17 15:27:39,819 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:27:40,629 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:27:40,833 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:27:40,992 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:27:41,016 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:27:41,018 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:27:41,018 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:27:48,589 - __main__ - INFO - Discovering subcategories for: Eczema
+2025-09-17 15:27:48,590 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/eczema-
+2025-09-17 15:27:48,632 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:27:49,428 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:27:49,883 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:27:50,053 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:27:50,085 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:27:50,086 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:27:50,088 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:27:59,010 - __main__ - INFO - Discovering subcategories for: Rashes
+2025-09-17 15:27:59,011 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/rashes
+2025-09-17 15:27:59,033 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:28:00,015 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:00,236 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:00,409 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:28:00,442 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:28:00,445 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:28:00,446 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:28:10,696 - __main__ - INFO - Discovering subcategories for: Acne
+2025-09-17 15:28:10,696 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/acne
+2025-09-17 15:28:10,718 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:28:11,614 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:11,802 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:11,983 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:28:12,007 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:28:12,008 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:28:12,009 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:28:23,802 - __main__ - INFO - Discovering subcategories for: Skin Whitening
+2025-09-17 15:28:23,803 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/skin-whitening
+2025-09-17 15:28:23,836 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:28:25,156 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:25,354 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:25,541 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:28:25,584 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:28:25,585 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:28:25,585 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:28:49,728 - __main__ - INFO - Discovering subcategories for: Hair Growth
+2025-09-17 15:28:49,729 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/hair-growth
+2025-09-17 15:28:49,751 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:28:50,575 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:50,766 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:28:50,935 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:28:50,957 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:28:50,958 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:28:50,958 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:29:03,789 - __main__ - INFO - Discovering subcategories for: Skin Inflammation
+2025-09-17 15:29:03,790 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/skin-inflammation
+2025-09-17 15:29:03,813 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:29:04,625 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:04,862 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:05,165 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:29:05,192 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:29:05,193 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:29:05,193 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:29:17,963 - __main__ - INFO - Discovering subcategories for: Scabies
+2025-09-17 15:29:17,963 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/scabies
+2025-09-17 15:29:17,984 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:29:18,828 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:19,046 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:19,288 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:29:19,319 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:29:19,320 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:29:19,321 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:29:29,949 - __main__ - INFO - Discovering subcategories for: Dermatitis
+2025-09-17 15:29:29,950 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/eczema-,-dermatitis
+2025-09-17 15:29:29,971 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:29:30,730 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:30,910 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:31,122 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:29:31,161 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:29:31,162 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:29:31,163 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:29:42,974 - __main__ - INFO - Discovering subcategories for: Eczema , Psoriasis
+2025-09-17 15:29:42,975 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/eczema-,-psoriasis
+2025-09-17 15:29:42,987 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:29:43,996 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:44,187 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:44,350 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:29:44,376 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:29:44,377 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:29:44,377 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:29:54,697 - __main__ - INFO - Discovering subcategories for: Facial Hairs
+2025-09-17 15:29:54,698 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/facial-hairs
+2025-09-17 15:29:54,719 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:29:55,768 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:55,975 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:29:56,237 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:29:56,268 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:29:56,269 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:29:56,270 - dvago_scraper - WARNING - Selenium not available, falling back to requests
+2025-09-17 15:30:01,331 - dvago_scraper - WARNING - Request failed for https://www.dvago.pk/cat/facial-hairs (attempt 1): 404 Client Error: Not Found for url: https://www.dvago.pk/cat/facial-hairs
+2025-09-17 15:30:10,200 - dvago_scraper - WARNING - Request failed for https://www.dvago.pk/cat/facial-hairs (attempt 2): 404 Client Error: Not Found for url: https://www.dvago.pk/cat/facial-hairs
+2025-09-17 15:30:24,944 - dvago_scraper - WARNING - Request failed for https://www.dvago.pk/cat/facial-hairs (attempt 3): 404 Client Error: Not Found for url: https://www.dvago.pk/cat/facial-hairs
+2025-09-17 15:30:24,944 - dvago_scraper - ERROR - Failed to fetch https://www.dvago.pk/cat/facial-hairs after 3 attempts
+2025-09-17 15:30:26,945 - __main__ - INFO - Discovering subcategories for: Hyperpigmentation
+2025-09-17 15:30:26,946 - dvago_scraper - INFO - Discovering subcategories for: https://www.dvago.pk/cat/hyperpigmentation
+2025-09-17 15:30:26,968 - WDM - INFO - ====== WebDriver manager ======
+2025-09-17 15:30:27,888 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:30:28,506 - WDM - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 15:30:28,684 - WDM - INFO - Driver [/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver] found in cache
+2025-09-17 15:30:28,712 - dvago_scraper - WARNING - Failed to initialize Chrome WebDriver: [Errno 86] Bad CPU type in executable: '/Users/macbookpro/.wdm/drivers/chromedriver/mac64/140.0.7339.82/chromedriver-mac-arm64/chromedriver'
+2025-09-17 15:30:28,714 - dvago_scraper - INFO - Selenium functionality will be disabled - falling back to requests only
+2025-09-17 15:30:28,715 - dvago_scraper - WARNING - Selenium not available, falling back to requests
